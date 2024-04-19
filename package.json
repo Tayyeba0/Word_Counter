@@ -1,9 +1,13 @@
 {
-  "name": "word_counter",
-  "version": "1.0.0",
+  "name": "@tayyeba/word_counter",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tayyeba/word_counter": "^1.0.1",
     "inquirer": "^9.2.19"
   },
   "devDependencies": {
